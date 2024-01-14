@@ -1,0 +1,13 @@
+SelectAll()
+ScaleToEm(1024)
+Generate("temp.ttf", "", -1)
+Close()
+
+Open("times.ttf")
+SelectAll()
+ScaleToEm(1024)
+
+MergeFonts("temp.ttf")
+SetFontNames("SunTimes", "SunTimes", "ZhuJianBiShan-RuiHeKai-2 and FiraCode-Medium Hybrid", "Regular", "")
+Generate("SunTimes.ttf", "", -1)
+Close()
