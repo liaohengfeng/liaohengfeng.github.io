@@ -1,0 +1,13 @@
+@import "https://at.alicdn.com/t/c/font_4435535_siyzjj15b29.css";
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 15px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#nav .menus_items .menus_item :not(.menus_item_child) .iconfont{
+	font-size: 17px;
+}
