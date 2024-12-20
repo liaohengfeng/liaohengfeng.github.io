@@ -1,0 +1,46 @@
+/* your-hexo/source/css/font.css */
+
+@font-face{
+    font-family: 'Fria';
+    font-display: swap;
+    src: url("https://s4.zstatic.net/ajax/libs/firacode/6.2.0/woff2/FiraCode-Regular.woff2") format("woff2");
+}
+@font-face{
+    code-font-family: 'Fria';
+    font-display: swap;
+    src: url("https://s4.zstatic.net/ajax/libs/firacode/6.2.0/woff2/FiraCode-Regular.woff2") format("woff2");
+}
+
+
+#recent-posts>.recent-post-item>.recent-post-info>.content {
+    font-size: 14.6px;
+    -webkit-line-clamp: 3;
+}
+
+
+.wl-card .wl-content>*:last-child
+{
+    font-size: 16px;
+}
+
+#aside-content .card-info .author-info__description {
+    font-size: 14px;
+	padding-left: 7px;
+}
+
+.katex {
+	font: normal 1.27em KaTeX_Main, Times New Roman, serif;
+}
+
+.katex-block katex-error{
+	font-size: 40px;
+}
+
+
+.clock-row{
+    color: var(--text-highlight-color) !important;
+}
+
+.wl-card .wl-meta>span{
+    color: #999 !important;
+}
