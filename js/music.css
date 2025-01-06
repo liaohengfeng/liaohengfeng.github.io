@@ -1,0 +1,4 @@
+#page-header.not-top-img #nav a,body:has(#anMusic-page)#page-header.not-top-img #nav .site-name {
+    color: #eee;
+    --font-color: #eee
+}

@@ -1,0 +1,57 @@
+[data-theme="dark"] u,emp,wavy {
+    color: var(--font-color)!important;
+}
+
+.site-card:not(:hover) .info .title{
+    color: var(--font-color)!important;
+}
+
+[data-theme="dark"] psw:hover {
+  color: var(--font-color);
+  background: none;
+}
+
+psw{
+    display: inline;
+    color: transparent;
+    background: #a1a1a1;
+    border-radius: 2px;
+    transition: all 0.28s ease;
+    -moz-transition: all 0.28s ease;
+    -webkit-transition: all 0.28s ease;
+    -o-transition: all 0.28s ease;
+
+}
+psw:hover{
+    color: #444;
+    background: none;
+}
+
+
+[data-theme="dark"] details[open] > div.content {
+  color: var(--font-color) !important;
+}
+
+@media screen and (min-width: 1230px) .site-card {
+    margin: 8px;
+    width: calc(80% / 4 - 16px);
+    display: block;
+    line-height: 1.4;
+    height: 100%;
+}
+
+blockquote{
+	padding-bottom: 20px !important;
+	border-radius: 5px;
+}
+
+[data-theme="light"] blockquote {
+    border-left: 5px solid #49b1f5;
+    background-color: rgba(255, 255, 255, 0.9)!important;
+}
+
+[data-theme="dark"] .note.simple{
+    border: 1px solid transparent !important;
+    border-left-width: 5px !important;
+    border-left-color: #49b1f5 !important;
+}

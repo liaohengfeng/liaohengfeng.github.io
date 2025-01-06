@@ -1,0 +1,13 @@
+.cardHover, .layout > div:first-child:not(.recent-posts), #recent-posts > .recent-post-item, #aside-content .card-widget, .layout > .recent-posts .pagination > *:not(.space){
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border:  1px solid var(--card-theme);
+}
+
+.cardHover:hover, .layout > div:first-child:not(.recent-posts):hover, #recent-posts > .recent-post-item:hover, #aside-content .card-widget:hover, .layout > .recent-posts .pagination > *:not(.space):hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border:  1px solid var(--card-theme);
+    border-color: #2196f3;
+    box-sizing: border-box;
+}

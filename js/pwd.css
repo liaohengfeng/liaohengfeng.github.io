@@ -1,0 +1,6 @@
+:not(.hbe-input-field-shrink:focus) + .hbe-input-label-shrink .hbe-input-label-content-shrink,
+.input--filled .hbe-input-label-shrink .hbe-input-label-content-shrink {
+	color: #84AF9B;
+	-webkit-transform: translate3d(0, 2em, 0) scale3d(0.655, 0.655, 1);
+	transform: translate3d(0, 2em, 0) scale3d(0.655, 0.655, 1);
+}
